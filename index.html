@@ -1,0 +1,808 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Weronika Kędziora">
+
+    <!-- FAVICON -->
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="images/favicon/site.webmanifest">
+    <!-- E/O FAVICON -->
+
+    <link rel="stylesheet" href="main.css">
+
+    <title>Hogwarts - School of Witchcraft and Wizardry</title>
+  </head>
+
+  <body data-spy="scroll" data-target="#navbarToggler">
+
+    <!-- PRELOADER -->
+    <div class="preloader" role="progressbar">
+        <span class="sr-only">Loading</span>
+        <div class="preloader__spinner"></div>
+    </div>
+    <!-- E/O PRELOADER -->
+
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+      <button
+        class="navbar-toggler ml-auto"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarToggler">
+        <ul class="navbar-nav navbar__ul d-flex justify-content-lg-end">
+          <li class="nav-item">
+            <a class="nav-link" href="#header">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#houses">Houses</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownStudy" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Study
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownStudy">
+              <a class="dropdown-item" href="#subjects">Subjects</a>
+              <a class="dropdown-item" href="#staff">Staff members</a>
+              <a class="dropdown-item" href="#exams">Exams</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- E/O NAVIGATION -->
+
+    <!-- HEADER SLIDER -->
+    <header id="header" class="header">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="first-slide slide slide--first d-flex flex-column justify-content-center align-items-center">
+              <h1 class="display-1">Hogwarts</h1>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="second-slide slide slide--second d-flex justify-content-center align-items-end">
+              <p class="quote font-italic">„Draco dormiens nunquam titillandus”</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </header>
+    <!-- E/O HEADER SLIDER -->
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section section--about about container">
+        <h2 class="display-2 about__title">About</h2>
+        <div class="row d-flex align-items-center justify-content-center">
+          <div class="about__img col-xl-3 col-lg-4">
+            <img src="images/arm.png" alt="" class="logo d-block m-auto">
+          </div>
+          <div class="about__content col-xl-9 col-lg-8">
+            <p class="text-justify">Hogwarts is a coeducational british school of magic for students aged eleven to eighteen, located in the Highlands of Scotland. It takes students from the United Kingdom of Great Britain and Northern Ireland, and Ireland.</p>
+            <p class="text-justify d-none d-sm-block">Hogwarts was founded around 990 A.D. by two wizards and two witches: Godric Gryffindor, Helga Hufflepuff, Rowena Ravenclaw, and Salazar Slytherin. They each represented an aspect of personality that they wanted to bring out in new students.</p>
+            <p class="text-justify d-none d-sm-block">The coat of arms of Hogwarts shows each house's mascot and house colours. Clockwise from top left: the Gryffindor lion, the Slytherin serpent, the Ravenclaw eagle, and the Hufflepuff badger.</p>
+            <p class="text-justify">The school's motto is Draco Dormiens Nunquam Titillandus (Draco Dormiens Nvnqvam Titillandvs), which, translated from Latin, means "Never tickle a sleeping dragon."</p>
+            <p class="text-justify d-none d-sm-block">The Headmaster of Hogwarts is Albus Dumbledore.</p>
+          </div>
+        </div>
+    </section>
+
+    <!-- E/O ABOUT SECTION -->
+
+    <!-- HOUSES SECTION -->
+    <section id="houses" class="section section--houses houses">
+      <div class="section__parallax parallax parallax--houses">
+        <h2 class="display-1 parallax__title">Houses</h2>
+      </div>
+      <div class="houses__container container content">
+        <p class="houses__discription">
+          Hogwarts is divided into four houses, each bearing the last name of its founder. Throughout the school year, the houses compete for the House Cup and for the Quidditch Cup. Houses at Hogwarts are living and learning communities for their students. Each house is under the authority of one of the Hogwarts staff members. Each year, year level groups of every separate house share the same dormitory and classes. The dormitory and common room of a House are, barring rare exceptions, inaccessible to students belonging to other Houses.
+        </p>
+        <div class="row nav">
+          <a class="nav-link col-md-3 col-6 active" data-toggle="tab" href="#gryffindor">
+            <img src="images/houses/gryffindor.jpg" alt="gryffindor herb - click to drop description" class="houses__img">
+          </a>
+          <a class="nav-link col-md-3 col-6" data-toggle="tab" href="#hufflepuff">
+            <img src="images/houses/hufflepuff.jpg" alt="hufflepuff herb - click to drop description" class="houses__img">
+          </a>
+          <a class="nav-link col-md-3 col-6" data-toggle="tab" href="#ravenclaw">
+            <img src="images/houses/ravenclaw.jpg" alt="ravenclaw herb - click to drop description" class="houses__img">
+          </a>
+          <a class="nav-link col-md-3 col-6" data-toggle="tab" href="#slytherin">
+            <img src="images/houses/slytherin.jpg" alt="slytherin herb - click to drop description" class="houses__img">
+          </a>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane fade show active" id="gryffindor">
+            <h3 class="display-4">Gryffindor</h3>
+            <p>Gryffindor values <span class="span-bold">courage, bravery, nerve, and chivalry</span>. Gryffindor's mascot is the lion. Gryffindor's colours are <span class="span-bold span-scarlet">scarlet</span> and <span class="span-bold span-gold">gold</span>. The Head of this house is the Transfiguration teacher and Deputy Headmistress Minerva McGonagall. The house ghost is Sir Nicholas de Mimsy-Porpington, more commonly known as Nearly Headless Nick.</p>
+            <p class="d-none d-sm-block">The Gryffindor dormitories and common room is in one of the castle's highest towers, and its entrance is on the seventh floor in the east wing of the castle and is guarded by a painting of The Fat Lady, who is garbed in a pink dress. She permits entry only after being given the correct password. Behind her painting is a large common room, with a fireplace, and two staircases leading up to the girls' and boys' dormitories.</p>
+            <p class="d-none d-sm-block">There is a spell on the girls' staircase that prevents boys from using it; however, there is no such enchantment on the staircase to the boys' dormitory, allowing girls to use it whenever they wish, due to the founders' belief that girls were more trustworthy. The common room is very comfortable, and members of the Gryffindor house meet there for study groups, celebrations, or relaxation. The walls are lined with portraits, each one depicting a previous or current Head of Gryffindor.</p>
+            <p>The founder of the house is <span class="span-bold">Godric Gryffindor</span>. Gryffindor hailed from a moor which is now known as Godric's Hollow, a small West Country village in England. Godric Gryffindor was said to be the greatest duellist of his time. He also possessed skill at Muggle duelling, using his sword in combat. He, with the help of the other founders, transfigured the Sorting Hat into a sentient artefact to sort students after his lifetime.</p>
+          </div>
+          <div class="tab-pane fade" id="hufflepuff">
+            <h3 class="display-4">Hufflepuff</h3>
+            <p>Hufflepuff values <span class="span-bold">hard work, patience, justice, and loyalty</span>. The house mascot is the badger. Hufflepuff's calours are <span class="span-bold span-yellow">yellow</span> and <span class="span-bold">black</span>. The Head of this house is the Herbology teacher Pomona Sprout. The house ghost is The Fat Friar.</p>
+            <p class="d-none d-sm-block">The entrance to the Hufflepuff dormitories and common room entrance is concealed in a pile of large barrels in an alcove in the corridor that holds the kitchen. To enter, one must tap the barrel two from the bottom in the middle of the second row in the rhythm of "Helga Hufflepuff". Unlike any other house, the Hufflepuff common room has a repelling device that douses the illegal entrant in vinegar if the wrong lid is tapped or the rhythm is wrong. The Hufflepuff common room is filled with yellow hangings and fat armchairs and it has little underground tunnels leading to the dormitories, all of which have perfectly round doors, like barrel tops.</p>
+            <p>The founder of this house is <span class="span-bold">Helga Hufflepuff</span>. She was born in the 10th Century and came from the broad valleys of Wales. She was very tolerant. While the other founders chose to have special students, Hufflepuff accepted them all. Helga Hufflepuff had a gift for Food-related charms, and her recipes are still used as the basis for many Hogwarts feasts. Helga Hufflepuff also arranged for the house-elf contingent to work in the kitchens, giving them somewhere safe to work, where they would not be mistreated or abused.</p>
+          </div>
+          <div class="tab-pane fade" id="ravenclaw">
+            <h3 class="display-4">Ravenclaw</h3>
+            <p>Ravenclaw values <span class="span-bold">intelligence, creativity, learning, and wit</span>. The house mascot is an eagle. The house colours are <span class="span-bold span-blue">blue</span> and <span class="span-bold span-broze">bronze</span>. The Head of this house is the Charms professor, Filius Flitwick. The house ghost is The Grey Lady.</p>
+            <p class="d-none d-sm-block">The dormitories are in Ravenclaw Tower, on the west side of Hogwarts. The common room, which went undescribed in the series until the climax of Deathly Hallows, is round and filled with blue hangings and armchairs, has a domed ceiling painted with stars and features a replica statue of Rowena wearing her diadem. Harry also notes that Ravenclaws "have a spectacular view of the surrounding mountains". A logical riddle must be solved to gain entry, whereas the Gryffindor and Slytherin common rooms only require a password (Hufflepuffs need to tap a barrel in the rhythm of "Helga Hufflepuff"), indicating that it may be easier for those students from other houses who possess a high degree of intelligence to enter this common room than others. Professor McGonagall, the head of the Gryffindor House, solves the riddle accurately.</p>
+            <p>The founder of this house is <span class="span-bold">Rowena Ravenclaw</span>. Noted for her intelligence and creativity and regarded as one of the greatest witches of the age. It is a popular historical theory that the location and name of Hogwarts were both chosen by Ravenclaw, who dreamt that a warty hog was leading her to a cliff by the lake. Ravenclaw came up with the ever-changing floor plan. Ravenclaw died sometime in the eleventh century, after she fell fatally ill. Legend had it that a broken heart is the cause — because her daughter Helena ran away with her diadem.</p>
+          </div>
+          <div class="tab-pane fade" id="slytherin">
+            <h3 class="display-4">Slytherin</h3>
+            <p>Slytherin values <span class="span-bold">ambition, cunning, leadership, and resourcefulness</span>. Slytherins have highly developed senses of self-preservation. Slytherins tend to take charge and possess strong leadership skills. Slytherins are often self-assured and confident of their own competence and can be very loyal. Another characteristic some Slytherins share is a tendency towards deep, unrequited love.<p>
+            <p>The house mascot of Slytherin is the serpent. The house colours are <span class="span-bold span-green">green</span> and <span class="span-bold span-silver">silver</span>. The Head of House is Severus Snape. The ghost of Slytherin house is The Bloody Baron.</p>
+            <p class="d-none d-sm-block">The Slytherin dormitories and common room are reached through a bare stone wall in the dungeons. The Slytherin common room is a long, low, dungeon-style room, under the Hogwarts Lake, furnished with green lamps and carved armchairs. The room is described have a greenish glow. Slytherin corresponds roughly with the element of water due to serpents being commonly associated with the sea and lochs in western European mythology, as well as serpents being physically fluid and flexible animals.</p>
+            <p>The founder of this house is <span class="span-bold">Salazar Slytherin</span>. He was a pure-blood wizard, noted for his cunning and determination. Slytherin built the Chamber of Secrets and left there his Basilisk behind. Salazar Slytherin was one of the earliest recorded Parselmouths and used this ability to control a Basilisk. He also was a Parselmouth - person who can speak language of serpents. Slytherin owned a wand made of Snakewood with a Basilisk horn core. It was passed down through the generation until it was stolen from Gormlaith Gaunt by her niece Isolt Sayre and later buried on the grounds of Ilvermorny School in North America.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- E/O HOUSES SECTION -->
+
+    <!-- STUDY SECTION -->
+    <section class="section section--study">
+      <div class="section__parallax parallax parallax--study">
+        <h2 class="display-1 parallax__title">Study</h2>
+      </div>
+      <div class="container content">
+        <!-- SUBJECTS -->
+        <div class="subjects" id="subjects">
+          <h3 class="display-4">Subjects</h3>
+          <div class="row">
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/history.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject1">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text" data-toggle="tooltip">History of Magic</h5>
+              </div>
+              <!-- Modal1 -->
+              <div class="modal fade" id="modal-subject1">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">History of Magic</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        History of Magic is the study of magical history. They are only lectures, given without pause, about significant events in wizarding history. Topics have included goblin rebellions, giant wars, and the origins of wizarding secrecy. This is the only class at Hogwarts that is taught by a ghost, as the professor never noticed he had died and simply continued teaching as if nothing had changed.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teacher
+                        <ul class="list">
+                          <li class="list-item">Cuthbert Binns</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal1 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/muggle.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject2">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Muggle Studies</h5>
+              </div>
+              <!-- Modal2 -->
+              <div class="modal fade" id="modal-subject2">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Muggle Studies</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Muggle Studies is a class which involves the study of the muggle (non-magical) culture "from a wizarding point of view." The only need for witches and wizards to learn about muggle ways and means is to ensure they can blend in with muggles while needing to do so (for example, at the 1994 Quidditch World Cup). As the class is only mentioned as being taken by Hermione, and for just one year, little is known about its curriculum.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Charity Burbage</li>
+                          <li class="list-item">Alecto and Amycus Carrow</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal2 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/divination.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject3">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Divination</h5>
+              </div>
+              <!-- Modal3 -->
+              <div class="modal fade" id="modal-subject3">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Divination</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Divination is the art of predicting the future. Various methods are described, including tea leaves, fire omens, crystal balls, palmistry, cartomancy (including the reading of conventional playing cards and the tarot), astrology, and dream interpretations. Divination is described by Professor McGonagall as "one of the most imprecise branches of magic". Supporters of the subject claim that it is an inexact science that requires innate gifts such as the "Inner Eye". Those opposed claim that the subject is irrelevant and fraudulent.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Firenze</li>
+                          <li class="list-item">Sybilla Trelawney</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal3 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/charms.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject4">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Charms</h5>
+              </div>
+              <!-- Modal4 -->
+              <div class="modal fade" id="modal-subject4">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Charms</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Charms is the class that teaches how to develop incantations for the uses of bewitchment. Charms are a type of magic spell concerned with giving an object new and unexpected properties. Lessons are largely practical.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teacher
+                        <ul class="list">
+                          <li class="list-item">Filius Flitwick</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal4 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/creatures.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject5">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Care of Magical Creatures</h5>
+              </div>
+              <!-- Modal5 -->
+              <div class="modal fade" id="modal-subject5">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Care of Magical Creatures</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Care of Magical Creatures is the class which instructs students on how to care for magical beasts. Classes are held outside the castle. Care of Magical Creatures classes typically take place outside of Hagrid's hut, but some lessons occasionally take place in the Forbidden Forest, such as the Thestral lesson.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Rubeus Hagrid</li>
+                          <li class="list-item">Silvanus Kettleburn</li>
+                          <li class="list-item">Wilhelmina Grubbly-Plank</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal5 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/flying.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject6">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Flying</h5>
+              </div>
+              <!-- Modal6 -->
+              <div class="modal fade" id="modal-subject6">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Flying</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Flying is the class that teaches the use of broomsticks made for the use of flying and is taught only to Hogwarts first years. The subject is the only one that requires physicality.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teacher
+                        <ul class="list">
+                          <li class="list-item">Rolanda Hooch</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal6 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/defence.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject7">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Defence Against the Dark Arts</h5>
+              </div>
+              <!-- Modal7 -->
+              <div class="modal fade" id="modal-subject7">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Defence Against the Dark Arts</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Defence Against the Dark Arts, commonly shortened to D.A.D.A., is the class that teaches students defensive techniques to defend against the Dark Arts, and to be protected from Dark creatures.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Gilderoy Lockhart</li>
+                          <li class="list-item">Remus Lupin</li>
+                          <li class="list-item">Bartemius Crouch Jr</li>
+                          <li class="list-item">Dolores Umbridge</li>
+                          <li class="list-item">Severus Snape</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal7 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/transfiguration.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject8">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Transfiguration</h5>
+              </div>
+              <!-- Modal8 -->
+              <div class="modal fade" id="modal-subject8">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Transfiguration</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Transfiguration is essentially the art of changing the properties of an object.  Transfiguration is a theory-based subject, including topics such as "Switching Spells", Vanishing Spells (causing an object to completely disappear) and Conjuring Spells (creating objects out of thin air).
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Minerva McGonagall</li>
+                          <li class="list-item">Albus Dumbledore</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal8 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/arithmancy.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject9">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Arithmancy</h5>
+              </div>
+              <!-- Modal9 -->
+              <div class="modal fade" id="modal-subject9">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Arithmancy</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Arithmancy is a branch of magic concerned with the magical properties of numbers. Arithmancy is reportedly difficult, as it requires memorising or working with many charts.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teacher
+                        <ul class="list">
+                          <li class="list-item">Septima Vector</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal9 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/astronomy.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject10">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Astronomy</h5>
+              </div>
+              <!-- Modal10 -->
+              <div class="modal fade" id="modal-subject10">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Astronomy</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Astronomy classes take place in the Astronomy Tower, the tallest tower in Hogwarts. Lessons involve observations of the night skies with telescopes. No astronomy lessons are shown in the books, but they are frequently referenced. Known student homework activities include learning the names of stars, constellations and planets, and their location, movements, and environments.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teacher
+                        <ul class="list">
+                          <li class="list-item">Aurora Sinistra</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal10 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/potions.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject11">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Potions</h5>
+              </div>
+              <!-- Modal11 -->
+              <div class="modal fade" id="modal-subject11">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Potions</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Potions is the art of creating mixtures with magical effects. It requires the correct mixing and stirring of ingredients at the right times and temperatures. As to the question of whether a muggle could brew a potion, given the correct magical ingredients.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Severus Snape</li>
+                          <li class="list-item">Horace Slughorn</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal11 -->
+            </div>
+            <div class="card col-lg-3 col-md-4 col-sm-6 col-12">
+              <div class="card__img">
+                <img class="card-img-top" src="images/subjects/herbology.jpg" alt="">
+                <button type="button" class="btn btn-dark" data-toggle="modal" data-target="#modal-subject12">
+                  Read more
+                </button>
+              </div>
+              <div class="card-body">
+                <h5 class="card-text">Herbology</h5>
+              </div>
+              <!-- Modal12 -->
+              <div class="modal fade" id="modal-subject12">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Herbology</h5>
+                      <button type="button" class="close" data-dismiss="modal">
+                        <span>&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p class="modal-par">
+                        Herbology is the study of magical plants and how to take care of, utilise and combat them. Students learn to care for and utilise plants, learn about their magical properties and what they are used for. Many plants provide ingredients for potions and medicine, while others have magical effects of their own right.
+                      </p>
+                      <hr>
+                      <p class="modal-par">
+                        Teachers
+                        <ul class="list">
+                          <li class="list-item">Pomona Sprout</li>
+                          <li class="list-item">Herbert Beery</li>
+                          <li class="list-item">Neville Longbottom</li>
+                        </ul>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- E/O Modal12 -->
+            </div>
+          </div>
+        </div>
+        <!-- E/O SUBJECTS -->
+
+        <!-- STAFF -->
+        <div class="staff" id="staff">
+          <h3 class="display-4">Staff</h3>
+          <p class="text-center text-info">~ Click below to drop down and read more ~</p>
+          <div class="accordion" id="accordionHogwartStaff">
+            <div class="card">
+              <div class="card-header">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseDumbledore" aria-expanded="true" aria-controls="collapseDumbledore">
+                  Headmaster of Hogarts - Albus Dumbledore
+                </button>
+              </div>
+              <div id="collapseDumbledore" class="collapse" data-parent="#accordionHogwartStaff">
+                <div class="card-body">
+                  <p class="quote font-italic">„It takes a great deal of bravery to stand up to our enemies, but just as much to stand up to our friends.”</p>
+                  <hr>
+                  <div class="row staff__member member d-flex align-items-center">
+                    <div class="member__img col-lg-3">
+                      <img src="images/staff/dumbledore.jpg" class="img-thumbnail" alt="">
+                    </div>
+                    <div class="member__discription col-lg-9">
+                      <p>Professor Albus Percival Wulfric Brian Dumbledore, O.M. (First Class) was born in 1881. He is a half-blood, Muggle-supporting wizard, the son of Percival and Kendra Dumbledore, and the elder brother of Aberforth and Ariana. His father died in Azkaban when Dumbledore was young, while his mother and sister were later accidentally killed. He is most famous for his defeat of Gellert Grindelwald, the discovery of the twelve uses of dragon's blood, and his work on alchemy with Nicolas Flamel.</p>
+                      <hr>
+                      <h5>Titles</h5>
+                      <ul class="list row">
+                        <li class="list-item col-lg-6">Transfiguration Professor</li>
+                        <li class="list-item col-lg-6">Headmaster of Hogwarts</li>
+                        <li class="list-item col-lg-6">Grand Sorcerer</li>
+                        <li class="list-item col-lg-6">Supreme Mugwump</li>
+                        <li class="list-item col-lg-6">Chief Warlock of the Wizengamot</li>
+                        <li class="list-item col-lg-6">Head Boy</li>
+                        <li class="list-item col-lg-6">Master of Death</li>
+                        <li class="list-item col-lg-6">Prefect</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFilch" aria-expanded="false" aria-controls="collapseFilch">
+                  Caretaker of Hogarts - Argus Filch
+                </button>
+              </div>
+              <div id="collapseFilch" class="collapse" data-parent="#accordionHogwartStaff">
+                <div class="card-body">
+                  <p class="quote font-italic">„A pity they let the old punishments die. Was a time detention would find you hanging by your thumbs in the dungeons. God, I miss the screaming.”</p>
+                  <hr>
+                  <div class="row staff__member member d-flex align-items-center">
+                    <div class="member__img col-lg-3">
+                      <img src="images/staff/filch.jpg" class="img-thumbnail" alt="">
+                    </div>
+                    <div class="member__discription col-lg-9">
+                      <p>Argus Filch is the caretaker of Hogwarts. He is a Squib. He is ill-tempered, which makes him unpopular with the student body, and occasionally causes a measure of tension or exasperation with teachers and other staff. His knowledge of the secrets and short-cuts of the castle is almost unparalleled, except perhaps by the users of the Marauder's Map. He tends to favor almost sadistically harsh punishments, and gleefully allies himself with Umbridge when she prescribes such punishments on students. He has an obsessive dislike of mud, animate toys, and all things that interfere with his desire for an immaculately clean and orderly Hogwarts.</p>
+                      <p class="d-none d-sm-block">Filch has a cat named Mrs Norris to whom he has a particular and possessive attachment. She acts as a hallway monitor or spy for Filch. She observes students engaging in suspicious activity or out of bed after curfew.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapsePomfrey" aria-expanded="false" aria-controls="collapsePomfrey">
+                  Matron of Hogarts - Madam Poppy Pomfrey
+                </button>
+              </div>
+              <div id="collapsePomfrey" class="collapse" data-parent="#accordionHogwartStaff">
+                <div class="card-body">
+                  <p class="quote font-italic">„Well, he should have some chocolate, at the very least.”</p>
+                  <hr>
+                  <div class="row staff__member member d-flex align-items-center">
+                    <div class="member__img col-lg-3">
+                      <img src="images/staff/pomfrey.jpg" class="img-thumbnail" alt="">
+                    </div>
+                    <div class="member__discription col-lg-9">
+                      <p>Madam Poppy Pomfrey is the matron at Hogwarts School of Witchcraft and Wizardry. She is a very competent nurse, having been in the position for, at least, the last quarter of the 20th century.</p>
+                      <p>Madam Pomfrey was very possessive of the patients in her care while in the Hospital Wing and their visitors upset her somewhat, as she frequently insisted they must rest. She was proficient in her area of expertise (healing magic) and can take care of some ailments "in a heartbeat". She fought in the Battle of Hogwarts, the final battle of the Second Wizarding War.</p>
+                      <p class="d-none d-sm-block">Madam Pomfrey began her career at Hogwarts School of Witchcraft and Wizardry sometime before 1971, being trusted in that year by Headmaster Albus Dumbledore to escort new Gryffindor student Remus Lupin, who was infected with lycanthropy due to a bite from Fenrir Greyback, to the Whomping Willow every full moon.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="card-header">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseHagrid" aria-expanded="false" aria-controls="collapseHagrid">
+                  Keeper of Keys and Grounds of Hogarts - Rubeus Hagrid
+                </button>
+              </div>
+              <div id="collapseHagrid" class="collapse" data-parent="#accordionHogwartStaff">
+                <div class="card-body">
+                  <p class="quote font-italic">„What’s comin’ will come, an’ we’ll meet it when it does.”</p>
+                  <hr>
+                  <div class="row staff__member member d-flex align-items-center">
+                    <div class="member__img col-lg-4">
+                      <img src="images/staff/hagrid.jpg" class="img-thumbnail" alt="">
+                    </div>
+                    <div class="member__discription col-lg-8">
+                      <p>Professor Rubeus Hagrid (b. 6 December 1928) was a half-giant wizard, son of Mr Hagrid and the giantess Fridwulfa, and elder half-brother of the giant Grawp.</p>
+                      <p>Hagrid attended Hogwarts School of Witchcraft and Wizardry in 1940 and was sorted into Gryffindor house. In Hagrid's third year, he was framed by Tom Riddle for the crime of opening the Chamber of Secrets and using his pet Acromantula to attack several Muggle-born students and eventually killing one of them. Though Hagrid's wand was snapped and he was expelled, he was trained as gamekeeper of Hogwarts and allowed to live on the school grounds at the request of Albus Dumbledore.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!-- E/O STAFF -->
+
+        <!-- EXAMS -->
+        <div class="exams" id="exams">
+          <h3 class="display-4">Exams</h3>
+          <div class="row">
+            <div class="col-lg-6">
+              <h4 class="exams__examTitle">O.W.L.</h4>
+              <h5 class="text-center">Ordinary Wizarding Levels</h5>
+              <p class="exams__disription">Standardized subject-specific test taken during Hogwarts School of Witchcraft and Wizardry students' fifth year, administrated by the Wizarding Examinations Authority. The score made by a student on a particular O.W.L. determines whether or not he or she will be allowed to continue taking that subject in subsequent school years, and whether they might be successful in obtaining a particular job.</p>
+            </div>
+            <div class="col-lg-6">
+              <h4 class="exams__examTitle">N.E.W.T</h4>
+              <h5 class="text-center">Nastily Exhausting Wizarding Test</h5>
+              <p class="exams__disription">Standardized subject-specific exam that seventh year witches and wizards at Hogwarts School of Witchcraft and Wizardry take to help them pursue certain careers after their graduation, so passing these exams is critical. For instance the Ministry of Magic only accepts Auror applicants with at least five N.E.W.T.s with top grades of either 'Outstanding' or 'Exceeds Expectations'.</p>
+            </div>
+          </div>
+        </div>
+        <!-- E/O EXAMS -->
+      </div>
+    </section>
+    <!-- E/O STUDY SECTION -->
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section--contact contact">
+      <div class="section__parallax parallax parallax--contact">
+        <h2 class="display-1 parallax__title">Contact</h2>
+      </div>
+      <div class="contact__container container">
+        <h3 class="display-4">Send an owl with a letter to the address below</h3>
+        <address class="address">
+          <p class="text-muted text-center font-italic">Hogwart</p>
+          <p class="text-muted text-center font-italic">School of Witchcraft and Wizardry</p>
+          <p class="text-muted text-center font-italic">Scotland, Great Britain</p>
+        </address>
+      </div>
+    </section>
+    <!-- E/O CONTACT SECTION -->
+
+    <!-- FOOTER -->
+    <footer class="footer bg-dark">
+        <p class="text-muted text-center">Hogwarts © 2018 Weronika Kędziora</p>
+    </footer>
+    <!-- E/O FOOTER -->
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="preloader.js"></script>
+  </body>
+</html>

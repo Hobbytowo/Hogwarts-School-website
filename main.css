@@ -8987,6 +8987,17 @@ img {
   font-size: 17vw;
 }
 
+@media (max-width: 1920px) {
+  .parallax--houses {
+    background-image: url("images/parallax/housesXL.jpg");
+  }
+  .parallax--study {
+    background-image: url("images/parallax/studyXL.jpg");
+  }
+  .parallax--contact {
+    background-image: url("images/parallax/contactXL.jpg");
+  }
+}
 @media (max-width: 1200px) {
   .parallax--houses {
     background-image: url("images/parallax/housesL.jpg");
@@ -9023,6 +9034,9 @@ img {
 @media (max-width: 627px) {
   .parallax {
     height: 300px;
+  }
+  .parallax--contact .parallax__title {
+    color: black;
   }
 }
 /* E/O PARALLAX */

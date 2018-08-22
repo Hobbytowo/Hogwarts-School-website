@@ -425,6 +425,20 @@ img{
   }
 }
 
+@media (max-width: 1920px) {
+  .parallax{
+    &--houses{
+      background-image: url('images/parallax/housesXL.jpg');
+    }
+    &--study{
+      background-image: url('images/parallax/studyXL.jpg');
+    }
+    &--contact{
+      background-image: url('images/parallax/contactXL.jpg');
+    }
+  }
+}
+
 @media (max-width: 1200px) {
   .parallax{
     &--houses{
@@ -465,6 +479,11 @@ img{
 @media (max-width: 627px) {
   .parallax{
     height: 300px;
+    &--contact{
+      & .parallax__title{
+        color: black;
+      }
+    }
   }
 }
 
